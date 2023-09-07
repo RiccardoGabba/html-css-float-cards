@@ -8,52 +8,47 @@ h1, p {
     text-align: center;
 }
 
-
-
-
 .clearfix:after{
     content: "";
     display: table;
     clear: both;
 }
 
-.debug{
-   
-    margin-left: 10px;
-}
-
 body{
     font-family: "montserrat", sans-serif;
-    
 }
 
 .container{
     max-width: 1200px;
-    margin: 0;
+    margin: 0 auto;
     
 }
 
 .box{
-    width: calc(80% / 3); 
-    background-color: red;
-    box-shadow: 5px  rgba(255, 255, 255, 0.7);
+    width: calc(100% / 3  - 10px); 
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 40px;
 }
 
 .pull-left{
     float: left;
 }
 
-
 .img{
-    height: 60px;
+    height: 100px;
+    object-fit: contain;
+    float: left;
 }
 
-h3{
-    display: inline-block;
+.testo{
+    display: inline;
+    color: white;
+    
+   
 }
 
-ul{
-    vertical-align: top;
-    display: inline-block;
-    list-style-type: none;
+.nome{
+    
+
 }
