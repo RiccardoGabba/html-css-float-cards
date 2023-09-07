@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, p {
+    text-align: center;
+}
+
+
+
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.debug{
+   
+    margin-left: 10px;
+}
+
+body{
+    font-family: "montserrat", sans-serif;
+    
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0;
+    
+}
+
+.box{
+    width: calc(80% / 3); 
+    background-color: red;
+    box-shadow: 5px  rgba(255, 255, 255, 0.7);
+}
+
+.pull-left{
+    float: left;
+}
+
+
+.img{
+    height: 60px;
+}
+
+h3{
+    display: inline-block;
+}
+
+ul{
+    vertical-align: top;
+    display: inline-block;
+    list-style-type: none;
+}
