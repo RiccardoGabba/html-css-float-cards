@@ -39,16 +39,11 @@ body{
     height: 100px;
     object-fit: contain;
     float: left;
+    padding-right: 20px;
 }
 
 .testo{
-    display: inline;
     color: white;
-    
-   
+    padding-top: 20px;
 }
 
-.nome{
-    
-
-}
