@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 h1, p {
     text-align: center;
 }
@@ -44,6 +46,15 @@ body{
 
 .testo{
     color: white;
-    padding-top: 20px;
+    padding-top: 10px;
+}
+
+.professione{
+    margin-top: 10px;
+}
+
+.email{
+    margin-top: 10px;
+    
 }
 
