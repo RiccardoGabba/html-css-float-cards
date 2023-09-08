@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+h1{
+    color: rgb(168, 3, 3);
+}
 
 h1, p {
     text-align: center;
@@ -55,6 +57,7 @@ body{
 
 .email{
     margin-top: 10px;
+    color: rgb(0, 204, 255);
     
 }
 
